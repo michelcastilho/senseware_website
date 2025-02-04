@@ -1,48 +1,152 @@
+/* Whatsapp */
+
 .pulse i {
     position: relative;
     z-index: 20;
     top: 16px;
     font-size: 30px;
   }
-  .pulse {
-    position: fixed;
-    cursor: pointer;
-    display: block;
-    width: 60px !important;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: rgba(0, 200, 0, 1);
-    color: white;
-    border-radius: 50px;
-    text-align: center;
-    transition-duration: 0.5s;
-    animation: pulse-btn 3s infinite;
-    z-index: 9000;
+.pulse {
+  position: fixed;
+  cursor: pointer;
+  display: block;
+  width: 60px !important;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: rgba(0, 200, 0, 1);
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  transition-duration: 0.5s;
+  animation: pulse-btn 3s infinite;
+  z-index: 9000;
+}
+
+.pulse:hover {
+  background-color: rgba(0, 150, 0, 1);
+  color: white;
+}
+
+.my-float {
+  margin-top: 15px;
+}
+
+@-webkit-keyframes pulse-btn {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 200, 0, 1);
   }
-  
-  .pulse:hover {
-    background-color: rgba(0, 150, 0, 1);
-    color: white;
+  70% {
+    -webkit-box-shadow: 0 0 0 20px rgba(0, 200, 0, 0);
   }
-  
-  .my-float {
-    margin-top: 15px;
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 200, 0, 0);
   }
-  
-  @-webkit-keyframes pulse-btn {
-    0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 200, 0, 1);
-    }
-    70% {
-      -webkit-box-shadow: 0 0 0 20px rgba(0, 200, 0, 0);
-    }
-    100% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 200, 0, 0);
-    }
-  }
-  
-  .pulse a {
-    color: #fff;
-  }
-  
+}
+
+.pulse a {
+  color: #fff;
+}
+
+/* Fim Whatsapp */
+
+/* Instagram floating icon */
+
+.insta-icon i {
+  position: relative;
+  z-index: 20;
+  top: 10px;
+  font-size: 30px;
+}
+.insta-icon {
+position: fixed;
+cursor: pointer;
+display: block;
+width: 60px !important;
+height: 60px;
+bottom: 120px;
+right: 40px;
+background-color: #C13584;
+color: white;
+border-radius: 50px;
+text-align: center;
+transition-duration: 0.5s;
+animation: pulse-insta 3s infinite;
+z-index: 9000;
+}
+
+.insta-icon:hover {
+background-color: #C13584;
+color: white;
+}
+
+.my-float {
+margin-top: 15px;
+}
+
+@-webkit-keyframes pulse-insta {
+0% {
+  -webkit-box-shadow: 0 0 0 0 #C13584;
+}
+70% {
+  -webkit-box-shadow: 0 0 0 20px rgba(0, 200, 0, 0);
+}
+100% {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 200, 0, 0);
+}
+}
+
+.pulse a {
+color: #fff;
+}
+
+/* Fim Whatsapp */
+
+.icone-produto {
+  color: #ffffff;
+  padding: 10px;
+}
+
+.icone-insta {
+  color: #C13584;
+  --bs-link-hover-color: #833AB4;
+}
+
+.icone-youtube {
+  color: #fe0033;
+  --bs-link-hover-color: #ff5d7d;
+}
+
+.btn-mercadolivre {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #FCAF45;
+  --bs-btn-border-color: #FCAF45;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #f8bb66;
+  --bs-btn-hover-border-color: #f8bb66;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #f8bb66;
+  --bs-btn-active-border-color: #f8bb66;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.btn-orcamento {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #5851DB;
+  --bs-btn-border-color: #5851DB;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #7873d6;
+  --bs-btn-hover-border-color: #7873d6;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #7873d6;
+  --bs-btn-active-border-color: #7873d6;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
