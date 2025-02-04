@@ -51,71 +51,62 @@
 /* Fim Whatsapp */
 
 /* Instagram floating icon */
-
 .insta-icon i {
   position: relative;
   z-index: 20;
-  top: 10px;
-  font-size: 30px;
+  top: 5px;
+  font-size: 20px;
 }
 .insta-icon {
 position: fixed;
 cursor: pointer;
 display: block;
-width: 60px !important;
-height: 60px;
-bottom: 120px;
-right: 40px;
+width: 40px !important;
+height: 40px;
+bottom: 110px;
+right: 50px;
 background-color: #C13584;
 color: white;
 border-radius: 50px;
 text-align: center;
 transition-duration: 0.5s;
-animation: pulse-insta 3s infinite;
 z-index: 9000;
 }
 
 .insta-icon:hover {
-background-color: #C13584;
+background-color: #833AB4;
 color: white;
 }
+/* Fim Instagram */
 
-.my-float {
-margin-top: 15px;
+/* Instagram youtube icon */
+.youtube-icon i {
+  position: relative;
+  z-index: 20;
+  top: 5px;
+  font-size: 20px;
 }
-
-@-webkit-keyframes pulse-insta {
-0% {
-  -webkit-box-shadow: 0 0 0 0 #C13584;
-}
-70% {
-  -webkit-box-shadow: 0 0 0 20px rgba(0, 200, 0, 0);
-}
-100% {
-  -webkit-box-shadow: 0 0 0 0 rgba(0, 200, 0, 0);
-}
-}
-
-.pulse a {
-color: #fff;
-}
-
-/* Fim Whatsapp */
-
-.icone-produto {
-  color: #ffffff;
-  padding: 10px;
+.youtube-icon {
+position: fixed;
+cursor: pointer;
+display: block;
+width: 40px !important;
+height: 40px;
+bottom: 160px;
+right: 50px;
+background-color: #fe0033;
+color: white;
+border-radius: 50px;
+text-align: center;
+transition-duration: 0.5s;
+z-index: 9000;
 }
 
-.icone-insta {
-  color: #C13584;
-  --bs-link-hover-color: #833AB4;
+.youtube-icon:hover {
+background-color: #ff5d7d;
+color: white;
 }
-
-.icone-youtube {
-  color: #fe0033;
-  --bs-link-hover-color: #ff5d7d;
-}
+/* Fim Youtube */
 
 .btn-mercadolivre {
   --bs-btn-color: #ffffff;
