@@ -3,7 +3,7 @@
 .pulse i {
     position: relative;
     z-index: 20;
-    top: 16px;
+    top: 10px;
     font-size: 30px;
   }
 .pulse {
