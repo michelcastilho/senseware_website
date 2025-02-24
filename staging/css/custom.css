@@ -141,3 +141,13 @@ color: white;
   --bs-btn-disabled-bg: #0d6efd;
   --bs-btn-disabled-border-color: #0d6efd;
 }
+
+/* Floating mobile menu */
+.hamburguer-menu {
+  position: fixed !important;
+  cursor: pointer !important;
+  display: block !important;
+  top: 20px !important;
+  right: 40px !important;
+  z-index: 9000 !important;
+  }
